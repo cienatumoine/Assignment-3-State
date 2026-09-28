@@ -6,3 +6,11 @@
     padding: 16px;
     width: 600px;
 }
+
+.product-card p {
+    padding: 0px 40px 0px 40px;
+}
+
+.product-image {
+    width: 280px;
+}

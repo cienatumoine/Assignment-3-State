@@ -5,29 +5,41 @@
   margin: 0;
 }
 
-.hero h1 {
-  font-size: 42px;
-  line-height: 1.25;
-  margin: 0 0 20px 0;
-  padding: 0;
+/* Code generated with assistance from ChatGPT */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.hero p {
-  font-size: 18px;
+/* Code generated with assistance from ChatGPT */
+.hero > * {
+    position: relative;
+  }
+
+  .hero h1 {
+    font-size: 54px;
+    margin-bottom: -15px;
+  }
+
+  .hero p {
+     font-size: 18px;
   line-height: 1.5;
   margin: 0 auto 25px auto;
   max-width: 600px;
 }
 
-.hero button {
+  .app-hero button {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-}
 
-@media (max-width: 600px) {
+  }
+
+  @media (max-width: 600px) {
   .hero {
     padding: 25px 15px 35px 15px;
   }
