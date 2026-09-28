@@ -1,0 +1,29 @@
+.app-footer {
+    background-color: rgb(142, 165, 235);
+  
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;   
+    padding: 20px;
+    color: black;
+  }
+  
+  .footer-title,
+  .footer-info,
+  .foot-nav-menu {
+    flex: 0 0 33%;  
+    padding: 0 10px; 
+  }
+  
+  .foot-nav-menu {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 20px;
+  }
+  
+  .foot-nav-link {
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+  }
+  
